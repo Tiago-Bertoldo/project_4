@@ -6,6 +6,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* EDITION DU CSS */
+.box_pantheres { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text_pantheres {
+    width: 600px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
 
 a,
 button {
@@ -91,7 +104,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -100,11 +112,22 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(4, 3, 3);
+    font-size: 14px;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255);
+}
+
+.col-sm-4 {
+    font-size: 19px;
+}
+.col-sm-4 li {
+    list-style: none;
+}
+col-sm-4 h2{
+    color: blue!important;
 }
 
 .d-bloc .icon-round,
@@ -651,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -736,7 +759,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
@@ -766,7 +790,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+.texture-paper-slate-blue {
     background-color: #364577;
 }
 
@@ -775,12 +799,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #0a0a0a!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -789,7 +813,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #969191!important;
 }
 
 .ltc-white:hover {
