@@ -23,7 +23,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -357,7 +356,7 @@ col-sm-4 h2{
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    border: 1px solid black;
 }
 
 .navbar-toggle {
@@ -479,12 +478,11 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    border: 1px solid black;
 }
 
 button {
-    outline: none!important;
+   border: 1px solid black;
 }
 
 .btn-rd {
@@ -723,8 +721,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    width: 30%;
+    display: flex;
+    margin: 2em auto;
 }
 
 h2 {
@@ -743,6 +742,17 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+}
+.new-bloco {
+    width: 60%;
+    margin: 3em auto;
+    margin-bottom: 2em;
+}
+.new-bloco h3 {
+    line-height: 1.3;
+    text-align: center;
+    font-size: 14px;
+    color: #969191;
 }
 
 h1 {
@@ -811,7 +821,6 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
 .ltc-white {
     color: #969191!important;
 }
@@ -1000,6 +1009,10 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .social {
+        width: 80%;
+        padding: 1em;
     }
     .bloc-xxl,
     .bloc-xl,
