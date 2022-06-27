@@ -19,6 +19,10 @@ body {
     text-align: center;
     line-height: 1.2;
 }
+.col-sm-12 h3 {
+    width: 420px;
+    margin: auto;
+}
 
 a,
 button {
@@ -816,6 +820,7 @@ h4 {
     background: #F3976C;
     color: #0a0a0a!important;
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
