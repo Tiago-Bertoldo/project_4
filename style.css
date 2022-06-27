@@ -360,7 +360,7 @@ col-sm-4 h2{
 
 .nav > li a:hover,
 .nav > li a:focus {
-    border: 1px solid black;
+    background-color: white;
 }
 
 .navbar-toggle {
@@ -482,12 +482,9 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    border: 1px solid black;
 }
 
-button {
-   border: 1px solid black;
-}
+
 
 .btn-rd {
     border-radius: 40px;
