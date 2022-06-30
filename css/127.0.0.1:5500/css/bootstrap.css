@@ -103,7 +103,6 @@ sub {
 }
 
 img {
-    width: 3;
     border: 0
 }
 
@@ -2012,6 +2011,7 @@ pre code {
 }
 
 .row {
+    margin: auto;
     margin-right: -15px;
     margin-left: -15px
 }
